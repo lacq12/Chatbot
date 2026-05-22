@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+#chat {
+  height: 400px;
+  overflow-y: auto;
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input-area {
+  display: flex;
+  margin-top: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestions button {
+  margin: 5px;
+  background: #007bff;
+  color: white;
+  border: none;
+}
